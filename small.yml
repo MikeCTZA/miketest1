@@ -1,4 +1,4 @@
-- name:
-  copy
+- name: copy a file to a remote machine
+  copy:
     src: abc.txt
     dest: /tmp/abc.txt
