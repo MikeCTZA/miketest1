@@ -1,0 +1,10 @@
+- name: all the stuff
+  hosts: all
+  become: true
+  tasks:
+  - name: copy a file to a remote machine
+    copy:
+      src: abc.txt
+      dest: /tmp/{{ ansible_date_time.epoch }}-copy2.txt
+      owner: ubuntu
+      group: ubuntu
