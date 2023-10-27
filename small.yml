@@ -6,5 +6,5 @@
     copy:
       src: abc.txt
       dest: /tmp/{{ ansible_date_time.epoch }}.txt
-      user: ubuntu
+      owner: ubuntu
       group: ubuntu
