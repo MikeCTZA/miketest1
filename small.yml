@@ -8,4 +8,4 @@
       dest: /tmp/{{ ansible_date_time.epoch }}.txt
       owner: ubuntu
       group: ubuntu
-    tags: [filecopy]
+  tags: [filecopy]
