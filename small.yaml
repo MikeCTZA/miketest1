@@ -1,0 +1,6 @@
+---
+tasks:
+  - name:
+    copy
+      src: abc.txt
+      dest: /tmp/abc.txt
